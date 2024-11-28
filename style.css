@@ -84,6 +84,55 @@
   border: 0.5px solid #888;
   margin-bottom: 16px;
 }
+
+p.textwildflower {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top:16px ;
+  margin-bottom: 16px;
+}
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-flex
+;
+  vertical-align: middle;
+  gap: 24px;
+  margin-bottom: 16px;
+  border: 0.5px solid #000;
+}
+
+p.productprices {
+  color: #3D3D3D;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.btn-group1, .btn-group1-vertical {
+  position: relative;
+  display: inline-flex
+;    margin-left: 24px;
+  vertical-align: middle;
+  gap: 24px;
+  margin-bottom: 16px;
+  border: 0.5px solid #000;
+}
+
+p.featuringtext {
+  color: #3D3D3D;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
 .iconlist {
   float: right;
   gap: 100px;
