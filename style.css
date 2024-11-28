@@ -122,6 +122,7 @@ p.productprices {
   gap: 24px;
   margin-bottom: 16px;
   border: 0.5px solid #000;
+  background: #D9D9D9;
 }
 
 p.featuringtext {
