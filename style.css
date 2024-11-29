@@ -114,6 +114,12 @@ p.productprices {
   line-height: 20px;
 }
 
+.price-details {
+  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-group1, .btn-group1-vertical {
   position: relative;
   display: inline-flex
@@ -124,6 +130,23 @@ p.productprices {
   border: 0.5px solid #000;
   background: #D9D9D9;
 }
+
+
+.row.cartitemsection {
+  align-items: center;
+  justify-content: center;
+  width: 103%;
+  margin-left: -21px;
+}
+button#dropdownMenuButton {
+  font-size: 12px;
+  color: #3D3D3D;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 
 p.featuringtext {
   color: #3D3D3D;
@@ -142,7 +165,7 @@ p.featuringtext {
 }
 
 .row.cartitemsection {
-  padding: 16px;
+  
   align-items: center;
   justify-content: center;
   font-family: lato;
@@ -251,27 +274,24 @@ li {
   margin-bottom: 32px;
 }
 
-.heading9 .customersay {
-  color: #000;
-  font-family: Lato;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px; /* 157.143% */
-}
 
-.customersay {
+.d-flex.justify-content-between.customersay {
+  display: flex
+;
+  width: 832px;
+  justify-content: space-between;
+  align-items: center;
   color: #000;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 157.143% */
-  display: flex;
+  line-height: 0px;
+  background: #DDD;
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: 16px;
 }
+
 
 /* product page  */
 .flex-box {
