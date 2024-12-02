@@ -14,6 +14,12 @@
   overflow: hidden;
 }
 
+.linkforhome{
+  text-decoration: none;
+  color: inherit; 
+
+}
+
 .divimage {
   display: flex;
   width: 300px;
@@ -58,7 +64,11 @@
   line-height: 64px;
   /* 100% */
   align-items: center;
+  text-decoration: none;
 }
+
+
+
 
 .content .list-inline-item:not(:last-child) {
   margin-right: 24px;
